@@ -16,6 +16,13 @@ public class app_convert {
             hexal hexa1 = new hexal();
             String hexaStrg = hexa1.Dec_Hexa(decimal);
             System.out.println(decimal+" | "+binStrg+" | "+octaStrg+ " | "+hexaStrg);
+            
         }
     }
 }
+/*OBS: Pensei fazer em tabela para ficar bonitinho mas fiquei com preguiça depois de pesquisar
+       sobre como fazer, mas fiz oque foi pedido, e voce neto tinha falado sobre os comandos do java
+       que ja faz essas conversoes, pesquisei e tem mesmo mas não acho que seja da maneira que queira
+       tem em JOP mas não sei fazer ficar todos um abaixo do outro então não fiz
+       JOptionPane.showMessageDialog(null,decimal+" | "+binStrg+" | "+octaStrg+ " | "+hexaStrg );
+*/
